@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { BooksComponent } from './books';
-import { ListComponent } from './pages/list';
+import { ListComponent } from './pages/list.component';
+import { StatsComponent } from './pages/stats.component';
 export const BOOK_ROUTES: Routes = [
   {
     path: '',
@@ -9,6 +10,10 @@ export const BOOK_ROUTES: Routes = [
       {
         path: 'list',
         component: ListComponent,
+      },
+      {
+        path: 'stats',
+        component: StatsComponent,
       },
       {
         path: '**',

@@ -14,7 +14,6 @@ The `/api/books` endpoint returns a list of about a hundred books. We want a new
 that displays the list of books from the API on component.
 
 We would like to display just the id, title, author and year of each book. Maybe you could display the results
-in a table, or some grid like structure. See what works for you.
 
 You can do pretty much _all_ of this in the component.
 

@@ -8,7 +8,11 @@ import { SectionNavComponent } from '../../../shared/components/section-nav/sect
   template: `
     <app-section-nav
       sectionName="Books"
-      [links]="[{ label: 'Book List', href: 'list' }]"
+      [links]="[
+        { label: 'Book List', href: 'list' },
+        { label: 'Stats', href: 'stats' },
+
+        ]"
     >
     </app-section-nav>
   `,

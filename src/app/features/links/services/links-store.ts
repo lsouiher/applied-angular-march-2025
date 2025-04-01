@@ -53,8 +53,6 @@ export const LinksStore = signalStore(
       readingList: computed(() => {
         const readingList = store.readingListEntities();
         const links = store.entities();
-        if (!links) return [];
-        if (!readingList) return [];
         return readingList.map((item) => {
           const link = links.find((link) => link.id === item.titleId);
           if (!link) return undefined;
